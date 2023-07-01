@@ -1,0 +1,7 @@
+{
+    "board": "arduino:avr:uno",
+    "port": "COM5",
+    "sketch": "alternate_duo\\alternate_duo.ino",
+    "programmer": "arduinoisporg",
+    "output": "./blink_led/output"
+}
