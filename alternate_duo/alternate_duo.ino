@@ -1,16 +1,17 @@
 int PIN_A = 9;
 int PIN_B = 10;
+int TIMER = 1000;
 
 void switchA() {
   digitalWrite(PIN_A, HIGH);
   digitalWrite(PIN_B, LOW);
-  delay(1000);
+  delay(TIMER);
 }
 
 void switchB() {
   digitalWrite(PIN_A, LOW);
   digitalWrite(PIN_B, HIGH);
-  delay(1000);
+  delay(TIMER);
 }
 
 void setup() {
